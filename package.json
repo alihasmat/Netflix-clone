@@ -1,0 +1,61 @@
+{
+  "name": "netflix-clone",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "react-scripts test --coverage --watchAll"
+  },
+  "dependencies": {
+    "firebase": "^9.9.4",
+    "fuse.js": "^6.6.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.1",
+    "styled-components": "^5.3.5",
+    "vite-plugin-babel-macros": "^1.0.6"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "<rootDir>/src/**/*.jsx",
+      "!<rootDir>/src/App.jsx",
+      "!<rootDir>/src/helpers/Routes.jsx",
+      "!<rootDir>/src/lib/firebase.js",
+      "!<rootDir>/src/lib/firebase.prod.js",
+      "!<rootDir>/src/main.jsx",
+      "!<rootDir>/src/seed.js",
+      "!<rootDir>/src/utils/selectionMap.js",
+      "!<rootDir>/src/pages/*.jsx",
+      "!<rootDir>/src/components/index.js",
+      "!<rootDir>/src/firebase.prod.js",
+      "!<rootDir>/src/hooks/*.jsx",
+      "!<rootDir>/src/context/*.js",
+      "!<rootDir>/src/constants/Routes.jsx",
+      "!<rootDir>/src/containers/*.jsx"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 90,
+        "functions": 90,
+        "lines": 90,
+        "statements": 90
+      }
+    },
+    "coverageReporters": [
+      "html",
+      "text"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/react": "^13.4.0",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.1.0",
+    "jest": "^29.0.3",
+    "vite": "^3.1.0"
+  }
+}

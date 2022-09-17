@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> renders <Header /> page test 1`] = `
+<div
+  class="style__Background-sc-1jm96lg-0 iuoPHl"
+  data-testid="header-bg"
+  src="joker1"
+>
+  <div
+    class="style__Frame-sc-1jm96lg-2 dtmKAa"
+  >
+    <div
+      class="style__Group-sc-1jm96lg-8 bvisSP"
+    >
+      <p
+        class="style__TextLink-sc-1jm96lg-7 hLavQF"
+      >
+        Series
+      </p>
+      <p
+        class="style__TextLink-sc-1jm96lg-7 hLavQF"
+      >
+        Films
+      </p>
+    </div>
+    <div
+      class="style__Group-sc-1jm96lg-8 bvisSP"
+    >
+      <div
+        class="style__Search-sc-1jm96lg-14 buBCJb"
+      >
+        <button
+          class="style__SearchIcon-sc-1jm96lg-15 hpydqn"
+          data-testid="search-click"
+        >
+          <img
+            src="images/icons/search.png"
+          />
+        </button>
+        <input
+          class="style__SearchInput-sc-1jm96lg-16 dSyDya"
+          data-testid="search-input"
+          placeholder="Search..."
+          value="Joker"
+        />
+      </div>
+      <div
+        class="style__Profile-sc-1jm96lg-11 fARoIl"
+      >
+        <img
+          class="style__Picture-sc-1jm96lg-9 uPQHn"
+          src="/images/users//images/Hasmat.png.png"
+        />
+        <div
+          class="style__Dropdown-sc-1jm96lg-10 dlLTgU"
+        >
+          <div
+            class="style__Group-sc-1jm96lg-8 bvisSP"
+          >
+            <img
+              class="style__Picture-sc-1jm96lg-9 uPQHn"
+              src="/images/users//images/Hasmat.png.png"
+            />
+            <p
+              class="style__TextLink-sc-1jm96lg-7 hLavQF"
+            >
+              Hasmat Ali
+            </p>
+          </div>
+          <div
+            class="style__Group-sc-1jm96lg-8 bvisSP"
+          >
+            <p
+              class="style__TextLink-sc-1jm96lg-7 hLavQF"
+            >
+              Sign out
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="style__Frame-sc-1jm96lg-2 style__Feature-sc-1jm96lg-5 dtmKAa OxDmk"
+  >
+    <h2
+      class="style__FeatureCallOut-sc-1jm96lg-12 fROkPz"
+    >
+      Watch Joker Now
+    </h2>
+    <p
+      class="style__Text-sc-1jm96lg-6 vFbeT"
+    >
+      Forever alone in a crowd..
+    </p>
+    <button
+      class="style__PlayButton-sc-1jm96lg-13 kQpieA"
+    >
+      Play
+    </button>
+  </div>
+  <div
+    class="style__Gradient-sc-1jm96lg-1 bQsqVP"
+  />
+</div>
+`;
+
+exports[`<Header /> renders basic <Header /> with background 1`] = `
+<div
+  class="style__Background-sc-1jm96lg-0 PeLls"
+  data-testid="header-bg"
+>
+  <div
+    class="style__Frame-sc-1jm96lg-2 dtmKAa"
+  >
+    <p
+      class="style__TextLink-sc-1jm96lg-7 hLavQF"
+    >
+      Hello I am a link.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<Header /> renders basic <Header /> without background 1`] = `
+<div
+  class="style__Frame-sc-1jm96lg-2 dtmKAa"
+>
+  <p
+    class="style__TextLink-sc-1jm96lg-7 hLavQF"
+  >
+    Hello I am a link.
+  </p>
+</div>
+`;

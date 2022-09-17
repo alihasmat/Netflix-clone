@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Profiles /> renders <Profile /> with mis image id 1`] = `
+<div
+  class="style__Container-sc-dud3s6-0 kdmfjV"
+>
+  <h1
+    class="style__Title-sc-dud3s6-1 dbKuYb"
+  >
+    Who's Watching?
+  </h1>
+  <ul
+    class="style__List-sc-dud3s6-2 hXrzAq"
+  >
+    <li
+      class="style__Item-sc-dud3s6-5 eGoyRQ"
+    >
+      <img
+        class="style__Picture-sc-dud3s6-3 jHsiRq"
+        data-testid="profile-image-misc"
+        src="images/misc/loading.gif"
+      />
+      <p
+        class="style__Name-sc-dud3s6-4 bLFXpV"
+      >
+        Hasmat
+      </p>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<Profiles /> renders <Profiles /> with populated data 1`] = `
+<div
+  class="style__Container-sc-dud3s6-0 kdmfjV"
+>
+  <h1
+    class="style__Title-sc-dud3s6-1 dbKuYb"
+  >
+    Who's Watching?
+  </h1>
+  <ul
+    class="style__List-sc-dud3s6-2 hXrzAq"
+  >
+    <li
+      class="style__Item-sc-dud3s6-5 eGoyRQ"
+    >
+      <img
+        class="style__Picture-sc-dud3s6-3 jHsiRq"
+        data-testid="profile-image"
+        src="/images/users//images/Hasmat.png.png"
+      />
+      <p
+        class="style__Name-sc-dud3s6-4 bLFXpV"
+      >
+        Hasmat
+      </p>
+    </li>
+  </ul>
+</div>
+`;

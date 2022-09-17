@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Search /> renders <Search /> 1`] = `
+<div
+  class="style__Container-sc-2194aj-0 ffykDg"
+>
+  <p
+    class="style__Text-sc-2194aj-1 eCvxxC"
+  >
+    Ready to watch? Enter your email to create or restart your membership.
+  </p>
+  <div
+    class="style__Form-sc-2194aj-2 cuDPLU"
+  >
+    <input
+      class="style__Input-sc-2194aj-3 kJZYId"
+      placeholder="Email Address"
+    />
+    <button
+      class="style__Button-sc-2194aj-4 cYGyku"
+    >
+      Get Started
+       
+      <img
+        alt="get started"
+        src="/images/icons/chevron-right.png"
+      />
+    </button>
+  </div>
+</div>
+`;
