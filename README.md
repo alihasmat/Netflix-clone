@@ -24,4 +24,6 @@ This application was build based on the tutorial by Karl Hadwen. It is an update
 - React router v6 uses Navigate instead of useHistory.
 - There is a different way of using routes in v6 which has been covered in the updated application.
 
+- Live Site URL: [Click Here](https://netflix-clone-4gx.pages.dev)
+
 ![Preview](Screenshot.png?raw=true)

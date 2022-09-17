@@ -52,7 +52,7 @@ export default function BrowseContainer({ slides }) {
           <Header.Group>
             <Header.Logo
               to={ROUTES.HOME}
-              src="/Images/misc/logo.svg"
+              src="/images/misc/logo.svg"
               alt="logo"
             />
             <Header.TextLink onClick={() => setCategory("series")}>
