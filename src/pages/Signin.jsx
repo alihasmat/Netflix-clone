@@ -1,6 +1,5 @@
 import { Header } from "../Components";
-import FooterContainer from "../containers/FooterContainer";
-import SignInContainer from "../containers/SignInContainer";
+import { SignInContainer, FooterContainer } from "../containers";
 import * as ROUTES from "../constants/Routes";
 
 export default function Signin() {

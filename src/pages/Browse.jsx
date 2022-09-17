@@ -1,4 +1,4 @@
-import BrowseContainer from "../containers/BrowseContainer";
+import { BrowseContainer } from "../containers";
 import UseContent from "../hooks/UseContent";
 import selectionMap from "../utils/selectionMap";
 

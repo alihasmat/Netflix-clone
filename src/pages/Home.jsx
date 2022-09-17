@@ -1,7 +1,6 @@
 import JumboContainer from "../containers/JumboContainer";
 import AccordianContainer from "../containers/AccordianContainer";
-import FooterContainer from "../containers/FooterContainer";
-import HeaderContainer from "../containers/HeaderContainer";
+import { HeaderContainer, FooterContainer } from "../containers";
 import Feature from "../Components/Feature/Feature";
 import Search from "../Components/Search/Search";
 

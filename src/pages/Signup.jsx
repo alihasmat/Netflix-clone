@@ -1,5 +1,5 @@
 import { Header } from "../Components";
-import SignUpContainer from "../containers/SignupContainer";
+import { SignUpContainer } from "../containers";
 import * as ROUTES from "../constants/Routes";
 
 export default function Signup() {
