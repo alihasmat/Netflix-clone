@@ -5,7 +5,7 @@ export default function HeaderContainer({ children }) {
   return (
     <Header>
       <Header.Frame>
-        <Header.Logo to={ROUTES.HOME} src="/Images/misc/logo.svg" alt="logo" />
+        <Header.Logo to={ROUTES.HOME} src="/images/misc/logo.svg" alt="logo" />
         <Header.ButtonLink to={ROUTES.SIGN_IN}>Sign In</Header.ButtonLink>
       </Header.Frame>
       {children}
