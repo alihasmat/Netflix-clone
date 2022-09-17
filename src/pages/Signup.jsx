@@ -9,7 +9,7 @@ export default function Signup() {
         <Header.Frame>
           <Header.Logo
             to={ROUTES.HOME}
-            src="/Images/misc/logo.svg"
+            src="/images/misc/logo.svg"
             alt="logo"
           />
         </Header.Frame>
